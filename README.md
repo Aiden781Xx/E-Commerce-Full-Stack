@@ -10,6 +10,10 @@ A modern and responsive e-commerce web application built with **React**, **TypeS
 
 ---
 
+![image](https://github.com/user-attachments/assets/e9a7f96c-7ca0-47ec-8050-b3b2e66a4a51)
+
+
+
 ## 📁 Project Structure
 
 ```
