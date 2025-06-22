@@ -85,7 +85,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
 
         <div className="mt-4 flex items-center justify-between">
           <span className="text-xs text-gray-500">
-            {product.inStock ? `Rs{product.stock} in stock` : 'Out of stock'}
+            {product.inStock ? `${product.stock} in stock` : 'Out of stock'}
           </span>
           <div className="flex flex-wrap gap-1">
             {product.tags.slice(0, 2).map((tag, index) => (

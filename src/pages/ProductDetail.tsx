@@ -161,7 +161,7 @@ const ProductDetail: React.FC = () => {
                     </select>
                   </div>
                   <div className="text-sm text-gray-600">
-                    {product.inStock ? `Rs{product.stock} available` : 'Out of stock'}
+                    {product.inStock ? `Rs${product.stock} available` : 'Out of stock'}
                   </div>
                 </div>
 
